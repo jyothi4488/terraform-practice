@@ -9,4 +9,5 @@ Commands:
 6. terraform apply
 7. terraform state list
 8. terraform show - shows the contents of state file. 
-9. 
+9. terraform plan -var instance_type=<> : This command applies the variable passed in command line to the code and shows the plan accordingly. 
+10. terraform output
